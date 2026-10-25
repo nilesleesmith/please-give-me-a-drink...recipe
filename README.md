@@ -1,73 +1,71 @@
 # Please Give Me a Drink... Recipe
 
-A small cocktail-search application built with JavaScript and TheCocktailDB API.
+Search TheCocktailDB for a cocktail and view its image and preparation instructions.
 
-## About
+## Overview
 
-This application lets a user type the name of a cocktail and retrieve information about the matching drink.
+Please Give Me a Drink... Recipe lets a user search for a cocktail by name.
 
-The application requests cocktail data from TheCocktailDB and displays the result directly on the webpage.
+The application sends the search term to TheCocktailDB, selects the first matching drink returned by the API, and displays the drink name, image, and preparation instructions in the browser.
 
 ## Features
 
 - Search for a cocktail by name
-- Retrieve cocktail data from an external API
-- Display the drink name
-- Display a cocktail image
+- Retrieve cocktail data from TheCocktailDB
+- Display the returned drink name
+- Display the cocktail image
 - Display preparation instructions
-
-## How It Works
-
-1. The user enters a cocktail name.
-2. The user clicks the search button.
-3. JavaScript reads the input.
-4. The application builds a TheCocktailDB search URL.
-5. `fetch()` sends the request.
-6. The response is converted to JSON.
-7. The first matching cocktail is selected.
-8. The drink name, image, and instructions are displayed in the DOM.
-
-## What I Practiced
-
-- JavaScript
-- DOM manipulation
-- Event listeners
-- User input
-- `fetch()`
-- Promises
-- JSON
-- External APIs
-- Dynamic page updates
+- Update the page dynamically with the returned result
 
 ## Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- TheCocktailDB API
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
 
-## Running the Project
+- [TheCocktailDB API](https://www.thecocktaildb.com/api.php)
 
-1. Clone or download the repository.
-2. Open `index.html`.
-3. Enter a cocktail name.
-4. Click the search button.
-5. View the returned cocktail information.
+## How to Run
 
-An internet connection is required because the application retrieves its information from TheCocktailDB.
+1. Clone the repository:
 
-## Possible Improvements
+```bash
+git clone https://github.com/nilesleesmith/please-give-me-a-drink...recipe.git
+```
 
-- Handle searches with no results
-- Display an error message when a request fails
-- Show ingredients and measurements
-- Support multiple matching drinks
-- Allow the Enter key to submit a search
-- Improve accessibility and keyboard interaction
+2. Open the project folder.
 
-## Purpose
+3. Open `index.html` in a web browser.
 
-This project was created to practice working with external APIs, asynchronous JavaScript, user input, and DOM manipulation.
+An internet connection is required to retrieve cocktail data from TheCocktailDB. No additional packages or build steps are required.
+
+## Live Site
+
+Coming soon.
+
+## Screenshots
+
+### Desktop
+
+![Please Give Me a Drink desktop view](./images/screenshots/please-give-me-a-drink-recipe-desktop.png)
+
+### Tablet
+
+![Please Give Me a Drink tablet view](./images/screenshots/please-give-me-a-drink-recipe-tablet.png)
+
+### Mobile
+
+![Please Give Me a Drink mobile view](./images/screenshots/please-give-me-a-drink-recipe-mobile.png)
 
 ## Alcohol Disclaimer
 
