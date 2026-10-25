@@ -57,15 +57,15 @@ Coming soon.
 
 ### Desktop
 
-![Please Give Me a Drink desktop view](./images/screenshots/please-give-me-a-drink-recipe-desktop.png)
+![Please Give Me a Drink desktop view](./img/screenshots/please-give-me-a-drink-recipe-desktop.png)
 
 ### Tablet
 
-![Please Give Me a Drink tablet view](./images/screenshots/please-give-me-a-drink-recipe-tablet.png)
+![Please Give Me a Drink tablet view](./img/screenshots/please-give-me-a-drink-recipe-tablet.png)
 
 ### Mobile
 
-![Please Give Me a Drink mobile view](./images/screenshots/please-give-me-a-drink-recipe-mobile.png)
+![Please Give Me a Drink mobile view](./img/screenshots/please-give-me-a-drink-recipe-mobile.png)
 
 ## Alcohol Disclaimer
 
