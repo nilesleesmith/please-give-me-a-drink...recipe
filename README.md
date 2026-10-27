@@ -51,21 +51,11 @@ An internet connection is required to retrieve cocktail data from TheCocktailDB.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/please-give-me-a-drink...recipe/
 
 ## Screenshots
 
-### Desktop
-
 ![Please Give Me a Drink desktop view](./img/screenshots/please-give-me-a-drink-recipe-desktop.png)
-
-### Tablet
-
-![Please Give Me a Drink tablet view](./img/screenshots/please-give-me-a-drink-recipe-tablet.png)
-
-### Mobile
-
-![Please Give Me a Drink mobile view](./img/screenshots/please-give-me-a-drink-recipe-mobile.png)
 
 ## Alcohol Disclaimer
 
